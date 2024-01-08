@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageButton3"
+        android:layout_width="379dp"
+        android:layout_height="217dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="465dp"
+        app:srcCompat="@drawable/images"
+    />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="179dp"
+        android:layout_height="81dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="232dp"
+        android:layout_marginBottom="645dp"
+        app:srcCompat="@drawable/upi_logo_lengkap_merah_samping1" />
+
+    <Button
+        android:id="@+id/PengertianBotton"
+        android:onClick="Pengertian"
+        android:layout_width="347dp"
+        android:layout_height="76dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="316dp"
+        android:text="Pengertian"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/SimulasiBotton"
+        android:layout_width="347dp"
+        android:layout_height="76dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="206dp"
+        android:onClick="Simulasi"
+        android:text="Simulasi"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/AboutBottom"
+        android:layout_width="347dp"
+        android:layout_height="76dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="94dp"
+        android:onClick="About"
+        android:text="About"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
